@@ -17,9 +17,9 @@ func main() {
     f := fibonacci()
     fib_num := f()
     even_sum := 0
-    
+
     for fib_num < 4000000 {
-       fib_num = f() 
+       fib_num = f()
        if fib_num % 2 == 0 {
             even_sum += fib_num
        }
